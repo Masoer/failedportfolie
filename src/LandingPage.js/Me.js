@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 import Queen from "./Queen.jpg";
+import Info from "./Info";
 
 export const Column = styled.div`
   display: flex;
@@ -37,16 +38,7 @@ const About = () => {
           <Column>
             <Container>
               <h3>About</h3>
-
-              <p>
-                {" "}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                diam nonumy eirmod tempor incididunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. Ut enim ad minim veniam, quis
-                nostrud exerception pariatur, sed diam voluptua et justo dolore
-                magna aliquyam erat. Except id,sed diam nonumy eirmod tempor
-                incididunt ut labore et dolore magna aliquyam erat.{" "}
-              </p>
+              <Info />
             </Container>
             <Image src={Queen} alt="me" />
           </Column>
