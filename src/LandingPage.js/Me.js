@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-import Queen from "./Queen.jpg";
+import PicMe from "./PicMe.jpg";
 import Info from "./Info";
 
 export const Column = styled.div`
@@ -40,7 +40,7 @@ const About = () => {
               <h3>About</h3>
               <Info />
             </Container>
-            <Image src={Queen} alt="me" />
+            <Image src={PicMe} alt="me" />
           </Column>
         </NewSection>
       </Container>
