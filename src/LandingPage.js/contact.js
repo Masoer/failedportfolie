@@ -1,7 +1,11 @@
-const Contact = () =>{
-    return(
-        <p>Also under construction</p>
-    )
-}
+import { MainDiv } from "./work";
+
+const Contact = () => {
+  return (
+    <MainDiv>
+      <p>Under construction</p>
+    </MainDiv>
+  );
+};
 
 export default Contact;
